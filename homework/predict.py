@@ -5,9 +5,9 @@ url = 'http://localhost:9696/score'
 client_id = 'xyx-123'
 
 client = {
-    "job": "student",
-    "duration": 280,
-    "poutcome": "failure"
+    "job": "management",
+    "duration": 400,
+    "poutcome": "success"
 }
 
 response = requests.post(url, json=client).json()
